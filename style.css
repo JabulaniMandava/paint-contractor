@@ -1,0 +1,248 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+}
+@import url('http://fonts.cdnfonts.com/css/bignoodletitling');
+body {
+	background-color: rgb(241,241,241);
+}
+section {
+	margin-top: 0%;
+	margin-bottom: 0%;
+	padding-top: 0;
+	padding-bottom: 0;
+}
+h1,h3,h2,h4,h5 {
+	color: rgb(215,35,35);
+}
+marquee {
+	width: 100%;
+}
+
+/* navbar */
+
+.navbar-nav{
+	margin-right: 0 !important;
+	padding-right: 100px;
+}
+
+.navbar{
+	background-color: rgb(215,35,35);
+	color: white !important;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+
+}
+
+.nav-item a{
+	color: white !important;
+}
+
+.nav-item{
+	padding-left: 2px;
+}
+
+.navbar-brand{
+	color: white !important;
+	padding-left: 100px;
+  font-family: 'BigNoodleTitling', sans-serif;                                               
+}
+
+#navbar button{
+	color: white !important;
+}
+
+/* banner */
+
+#banner-container{
+	background-color: rgb(215,35,35);
+	color: white !important;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	
+}
+#banner-container-top{
+	background: url('https://i.ibb.co/FxD4J9q/banner.jpg') no-repeat center center ;
+  -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+	color: white !important;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	
+}
+
+#banner-row img{
+	max-width: 70%;
+	height: auto;
+	display: block;
+	padding-left: 30px;
+}
+
+#banner-row h5, p{
+	color: white;
+	padding-left: 20px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#banner-row a{
+	background-color: white !important;
+	color: black !important;
+	border: none;
+	margin-left: 20px;
+	margin-top: 20px;
+	
+}
+#banner-col{
+	padding-left: 20px;
+}
+/* service */
+#service{
+	padding-top: 80px;
+	padding-bottom: 20px;
+	height: 100%;
+}
+
+#service h2{
+	padding-bottom: 50px;
+}
+#service h5{
+	padding-top: 10px;
+	color: rgb(215,35,35);
+}
+#service p{
+	color: black;
+}
+
+
+/* about */
+
+#about{
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+#about h2{
+	padding-bottom: 0px;
+}
+
+#about-col ul{
+	padding-top: 0px;
+	padding-left: 50px;
+}
+
+#about-col ul li{
+	padding-top: 15px;
+	
+}
+
+#about h5{
+  color: rgb(215,35,35);
+}
+#carouselExampleSlidesOnly img{
+   width: 100%;
+   height: auto;
+}
+/* product */
+
+#product{
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+#product h2{
+	padding-bottom: 10px;
+}
+
+#product h5 {
+  color: rgb(215,35,35);
+}
+
+#product-col2 ul{
+	padding-top: 10px;
+  padding-left: 50px;
+}
+
+#product-col2 ul li{
+	padding-top: 15px;
+}
+
+/* social */
+
+#social{
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+#social h2{
+	padding-bottom: 10px;
+}
+
+.social-col a:hover img{
+transform: translateY(-10px);
+}
+
+#social-row{
+	flex-direction: row;
+	padding-bottom: 30px;
+	width: 30%;
+	margin: 0 auto;
+}
+#contact-row {
+	width: 70%;
+	margin: 0 auto;
+}
+.social-column {
+	margin: 0 auto;
+}
+address p {
+	color: black;
+}
+
+/* footer */
+
+.mb-3{
+padding-top: 10px;
+}
+
+/* media */
+@media only screen and (max-width: 987px){
+	.navbar-brand{
+		padding-left: 0px;
+	}
+	
+}
+
+@media only screen and (max-width: 768px){
+	#banner-row img{
+		padding-top: 20px;
+	}
+	img {
+		transform: scale(80%);
+	  } 
+
+
+.social-col{
+	width: 33%;
+}
+  
+     p,li {
+		font-size: 80%;
+	}
+  #banner h3 {
+    font-size: 98%
+  }
+  #service h2{
+	padding-bottom: 10px;
+}
+  
+}
+@media only screen and (max-width: 600px){
+  .footer-bar {
+    display: none;
+  }
+}
